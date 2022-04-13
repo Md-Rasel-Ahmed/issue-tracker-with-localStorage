@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+        .child {
+        width:200px;
+        height:200px;
+        border: 2px solid green;
+    }
+    .main{
+        position:relative;
+        width:200px;
+        height:200px;
+    }
+    .child1{
+        position:absolute;
+        width:20px;
+        height:20px;
+        bottom:-14px;
+        left:45%;
+        border-left: 2px solid green;
+        border-bottom: 2px solid green;
+        background-color:white;
+        transform: rotate(-45deg);
+    }
+    .child2{
+        position:absolute;
+        width:20px;
+        height:20px;
+        top:-11px;
+        left:45%;
+        border-left: 2px solid green;
+        border-bottom: 2px solid green;
+        background-color:white;
+        transform: rotate(134deg);
+    }
+   </style>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="child">
+       <h1 align="center">First</h1>
+        </div>
+        <div class="child1">
+
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="main">
+        <div class="child">
+       <h1 align="center">Second</h1>
+        </div>
+        <div class="child2">
+    
+        </div>
+    </div>
+    <script>
+      (function () {
+            return (function () {
+                console.log(a);
+                     a = 23;
+            })()
+        })();
+    </script>
+</body>
+</html>
